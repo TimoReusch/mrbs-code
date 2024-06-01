@@ -1,0 +1,94 @@
+site_name: MRBS
+repo_url: https://github.com/meeting-room-booking-system/mrbs-code
+repo_name: mrbs-code
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - search.share
+    - search.highlight
+    - search.suggest
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Getting started:
+    - Installation instructions: getting_started/01_installation.md
+    - Extending the database: getting_started/02_database_extension.md
+    - Maintaining the databse: getting_started/03_maintanance.md
+  - Authentication:
+    - Overview: authentication/01_overview.md
+    - Configuration: authentication/02_configuration.md
+    - Internal Authentication Methods:
+      - Config: authentication/03_internal_auth_methods/01_config.md
+      - Database: authentication/03_internal_auth_methods/02_db.md
+      - POP3/IMAP: authentication/03_internal_auth_methods/03_email.md
+      - LDAP: authentication/03_internal_auth_methods/04_ldap.md
+      - Windows NT: authentication/03_internal_auth_methods/05_windows_nt.md
+      - OMNI: authentication/03_internal_auth_methods/06_omni.md
+      - Remote: authentication/03_internal_auth_methods/07_remote.md
+      - Joomla!: authentication/03_internal_auth_methods/08_joomla.md
+      - WordPress: authentication/03_internal_auth_methods/09_wordpress.md
+      - SAML: authentication/03_internal_auth_methods/10_saml.md
+      - WIX: authentication/03_internal_auth_methods/11_wix.md
+    - External Authentication Programs:
+      - Encrypted Password: authentication/04_external_auth_programs/01_encrypted_password.md
+      - PAM: authentication/04_external_auth_programs/02_pam.md
+    - Creating new auth schemes: authentication/05_creating_new_auth_schemes.md
+    - Creating new session schemes: authentication/06_creating_new_session_schemes.md
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - md_in_html
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.highlight:
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
+        - name: pycon3
+          lang: pycon
+          options:
+            python3: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+  - awesome-pages
