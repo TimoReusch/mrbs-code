@@ -30,6 +30,10 @@ nav:
     - Installation instructions: getting_started/01_installation.md
     - Extending the database: getting_started/02_database_extension.md
     - Maintaining the databse: getting_started/03_maintanance.md
+  - Advanced Configs:
+    - iCalendar: advanced_config/icalendar.md
+    - Entry Types: advanced_config/entry_types.md
+    - Ajax request settings: advanced_config/ajax.md
   - Authentication:
     - Overview: authentication/01_overview.md
     - Configuration: authentication/02_configuration.md
