@@ -110,7 +110,7 @@ To install MRBS, just unpack the distribution into a temporary directory, then c
             All of the `.sql` files are set up to use the `mrbs_` prefix therefore you will have to edit them before you use them if you change the prefix for your tables.
 
 #### Extending the database
-Please see the [Database Extension Section](database-extension.md) for details.
+Please see the [Database Extension Section](02_database_extension.md) for details.
 
 ### 3. Configuring MRBS
 Next, you will need to **create and customize** the file `config.inc.php`.

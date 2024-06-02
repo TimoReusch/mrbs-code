@@ -4,7 +4,7 @@ The Meeting Room Booking System (MRBS) is a PHP-based application for  booking m
 Some parts of this are based on [WebCalender 0.9.4 by Craig Knudsen](http://www.radix.net/~cknudsen/webcalendar/) but there is now very little which is similar. There are fundamental design goal differences between WebCalendar and MRBS - WC is for individuals, MRBS is for meeting rooms.
 
 ## Usage
-See the Installation-Section for setup-instructions.
+See the [Installation-Section](getting_started/01_installation.md) for setup-instructions.
 
 Once it's installed try going to [http://yourhost/mrbs/](http://yourhost/mrbs/).
 
