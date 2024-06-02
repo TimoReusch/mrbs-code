@@ -10,8 +10,8 @@ theme:
     - search.share
     - search.highlight
     - search.suggest
+    - navigation.tabs
   palette:
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -25,6 +25,7 @@ theme:
         name: Switch to light mode
 
 nav:
+  - Home: index.md
   - Getting started:
     - Installation instructions: getting_started/01_installation.md
     - Extending the database: getting_started/02_database_extension.md
@@ -49,6 +50,19 @@ nav:
       - PAM: authentication/04_external_auth_programs/02_pam.md
     - Creating new auth schemes: authentication/05_creating_new_auth_schemes.md
     - Creating new session schemes: authentication/06_creating_new_session_schemes.md
+  - Upgrading MRBS:
+    - General Information: upgrading/general.md
+    - From prior 1.8.0: upgrading/from_prior_1.8.0.md
+    - From prior 1.7.1: upgrading/from_prior_1.7.1.md
+    - From prior 1.7.0: upgrading/from_prior_1.7.0.md
+    - From prior 1.6.0: upgrading/from_prior_1.6.0.md
+    - From prior 1.5.0: upgrading/from_prior_1.5.0.md
+    - From prior 1.4.9: upgrading/from_prior_1.4.9.md
+    - From prior 1.4.6: upgrading/from_prior_1.4.6.md
+    - From prior 1.4.5: upgrading/from_prior_1.4.5.md
+    - From prior 1.2-pre3: upgrading/from_prior_1.2-pre3.md
+  - Contributing:
+    - Internationalization: contributing/internationalization.md
 
 
 markdown_extensions:
