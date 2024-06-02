@@ -1,4 +1,6 @@
 # Overview
+MRBS features various authentication methods, which are explained here.
+
 ## Principles
 ### User interface
 
